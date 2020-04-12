@@ -7672,3 +7672,288 @@ Script Stack (0 frames):
 [2020.04.12-02.31.42:261][810]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
 [2020.04.12-02.31.42:261][810]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 1 (Closing connection 120)
 [2020.04.12-02.31.42:594][811]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.33.42:930][172]LogHttp: Warning: 0x7f805938df80: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.33.42:930][172]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.33.42:930][172]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 1 (Closing connection 121)
+[2020.04.12-02.33.43:265][173]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.35.43:623][534]LogHttp: Warning: 0x7f805938df80: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.35.43:623][534]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.35.43:623][534]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 1 (Closing connection 122)
+[2020.04.12-02.35.43:956][535]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.37.44:624][897]LogHttp: Warning: 0x7f805938df80: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.37.44:624][897]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.37.44:624][897]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 1 (Closing connection 123)
+[2020.04.12-02.37.44:624][897]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.39.44:960][258]LogHttp: Warning: 0x7f805938df80: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.39.44:960][258]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.39.44:960][258]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 1 (Closing connection 124)
+[2020.04.12-02.39.45:292][259]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.41.45:628][620]LogHttp: Warning: 0x7f805938df80: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.41.45:628][620]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.41.45:628][620]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 1 (Closing connection 125)
+[2020.04.12-02.41.45:960][621]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.43.46:295][982]LogHttp: Warning: 0x7f805938df80: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.43.46:295][982]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.43.46:295][982]LogHttp: Warning: 0x7f805938df80: libcurl info message cache 1 (Closing connection 126)
+[2020.04.12-02.43.46:628][983]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.44.44:087][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.12-02.44.44:211][649]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.12-02.44.44:222][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.44.44:222][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.12-02.44.44:222][649]PIE: New page: PIE session: TutMap (Apr 11, 2020, 6:44:44 PM)
+[2020.04.12-02.44.44:222][649]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap
+[2020.04.12-02.44.44:245][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022287s)
+[2020.04.12-02.44.44:245][649]LogAIModule: Creating AISystem for world TutMap
+[2020.04.12-02.44.44:245][649]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2020.04.12-02.44.44:246][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutMap.TutMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap (0.023028s)
+[2020.04.12-02.44.44:285][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.04.12-02.44.44:286][649]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.12-02.44.44:286][649]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.12-02.44.44:286][649]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.12-02.44.44:286][649]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.12-02.44.44:286][649]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.12-02.44.44:286][649]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2020.04.12-02.44.44:286][649]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.12-02.44.44:287][649]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.12-02.44.44:287][649]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2020.04.12-02.44.44:688][649]LogInit: FAudioDevice initialized.
+[2020.04.12-02.44.44:733][649]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.12-02.44.44:740][649]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap up for play (max tick rate 0) at 2020.04.11-22.44.44
+[2020.04.12-02.44.44:742][649]LogWorld: Bringing up level for play took: 0.007284
+[2020.04.12-02.44.44:747][649]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap 0.526
+[2020.04.12-02.44.44:747][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.44.50:480][990]LogScript: Warning: Attempted to access ThirdPersonCharacter_167 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_167 is pending kill
+	AI_Active_Hard_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap:PersistentLevel.AI_Active_Hard_C_9
+	Function /Game/EnemyAI/AI_Active_Hard.AI_Active_Hard_C:ExecuteUbergraph_AI_Active_Hard:01BA
+[2020.04.12-02.44.50:480][990]PIE: Error: Blueprint Runtime Error: "Attempted to access ThirdPersonCharacter_167 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_167 is pending kill". Blueprint:  AI_Active_Hard Function:  Execute Ubergraph AI Active Hard Graph:  EventGraph Node:  Set PlayerHealth
+[2020.04.12-02.44.50:480][990]LogScript: Warning: Attempted to access ThirdPersonCharacter_167 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_167 is pending kill
+	AI_Active_Hard_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap:PersistentLevel.AI_Active_Hard_C_9
+	Function /Game/EnemyAI/AI_Active_Hard.AI_Active_Hard_C:ExecuteUbergraph_AI_Active_Hard:01E9
+[2020.04.12-02.44.50:480][990]PIE: Error: Blueprint Runtime Error: "Attempted to access ThirdPersonCharacter_167 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_167 is pending kill". Blueprint:  AI_Active_Hard Function:  Execute Ubergraph AI Active Hard Graph:  EventGraph Node:  Set PlayerHealth
+[2020.04.12-02.44.50:480][990]LogScript: Warning: Attempted to assign to None
+	AI_Active_Hard_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap:PersistentLevel.AI_Active_Hard_C_9
+	Function /Game/EnemyAI/AI_Active_Hard.AI_Active_Hard_C:ExecuteUbergraph_AI_Active_Hard:01FE
+[2020.04.12-02.44.50:480][990]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  AI_Active_Hard Function:  Execute Ubergraph AI Active Hard Graph:  EventGraph Node:  Set PlayerHealth
+[2020.04.12-02.44.58:365][861]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-02.44.58:368][861]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.12-02.44.58:383][861]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.12-02.44.58:383][861]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.44.58:384][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.12-02.44.58:384][861]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-02.44.58:424][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.12-02.44.58:425][861]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.44.58:481][861]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-02.44.58:504][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.12-02.44.58:521][861]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.04.12-02.44.58:527][861]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.44.58:527][861]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.44.58:527][861]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.44.58:578][861]LogLinux: Scale at X=77.000000, Y=349.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.44.58:578][861]LogLinux: Scale at X=960.500000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.44.58:752][862]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.44.58:752][862]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.12-02.44.58:806][862]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.44.58:820][862]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2020.04.12-02.45.20:089][552]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.12-02.45.20:189][562]LogLinux: Scale at X=77.000000, Y=349.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.45.20:190][562]LogSlate: Window 'Message Log' being destroyed
+[2020.04.12-02.45.20:202][562]LogSlate: Window 'Message Log' being destroyed
+[2020.04.12-02.45.39:939][899]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.45.39:940][899]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.45.39:940][899]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.45.40:025][900]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.45.46:818][568]LogHttp: Warning: 0x7f8059b27400: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.45.46:818][568]LogHttp: Warning: 0x7f8059b27400: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.45.46:818][568]LogHttp: Warning: 0x7f8059b27400: libcurl info message cache 1 (Closing connection 127)
+[2020.04.12-02.45.46:827][569]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.47.12:172][207]LogLinux: Scale at X=218.500000, Y=225.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.47.12:190][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.12-02.47.12:277][209]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.47.15:125][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.12-02.47.15:237][448]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.47.15:237][448]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.47.15:255][448]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.47.15:375][448]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.47.15:397][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/TutMap" FILE="../../../../Documents/Unreal Projects/FPSTut/Content/ThirdPersonBP/Maps/TutMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.12-02.47.15:436][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.04.12-02.47.15:649][448]LogSavePackage: Moving '../../../../Documents/Unreal Projects/FPSTut/Saved/TutMapC70FC40308D7DE6A482E4D181E33AF67.tmp' to '../../../../Documents/Unreal Projects/FPSTut/Content/ThirdPersonBP/Maps/TutMap.umap'
+[2020.04.12-02.47.15:671][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/TutMap_BuiltData" FILE="../../../../Documents/Unreal Projects/FPSTut/Content/ThirdPersonBP/Maps/TutMap_BuiltData.uasset" SILENT=true
+[2020.04.12-02.47.16:039][448]LogSavePackage: Moving '../../../../Documents/Unreal Projects/FPSTut/Saved/TutMap_BuiltDataC711C26708D7DE6A483EB6441E355385.tmp' to '../../../../Documents/Unreal Projects/FPSTut/Content/ThirdPersonBP/Maps/TutMap_BuiltData.uasset'
+[2020.04.12-02.47.47:208][745]LogHttp: Warning: 0x7f7fa8d68300: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.47.47:208][745]LogHttp: Warning: 0x7f7fa8d68300: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.47.47:209][745]LogHttp: Warning: 0x7f7fa8d68300: libcurl info message cache 1 (Closing connection 128)
+[2020.04.12-02.47.47:209][745]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.49.47:558][106]LogHttp: Warning: 0x7f7fa8d68300: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.49.47:558][106]LogHttp: Warning: 0x7f7fa8d68300: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.49.47:558][106]LogHttp: Warning: 0x7f7fa8d68300: libcurl info message cache 1 (Closing connection 129)
+[2020.04.12-02.49.47:892][107]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.51.22:129][555]LogLinux: Scale at X=495.000000, Y=377.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.51.22:157][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.12-02.51.22:170][557]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.51.23:932][628]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.12-02.51.25:859][793]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.12-02.51.25:871][793]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.51.25:871][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.12-02.51.25:871][793]PIE: New page: PIE session: TutMap (Apr 11, 2020, 6:51:25 PM)
+[2020.04.12-02.51.25:871][793]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap
+[2020.04.12-02.51.25:895][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023650s)
+[2020.04.12-02.51.25:895][793]LogAIModule: Creating AISystem for world TutMap
+[2020.04.12-02.51.25:896][793]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2020.04.12-02.51.25:896][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutMap.TutMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap (0.024406s)
+[2020.04.12-02.51.25:937][793]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.04.12-02.51.25:939][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.12-02.51.25:939][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.12-02.51.25:939][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.12-02.51.25:939][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.12-02.51.25:939][793]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.12-02.51.25:939][793]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2020.04.12-02.51.25:939][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.12-02.51.25:940][793]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.12-02.51.25:940][793]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2020.04.12-02.51.26:377][793]LogInit: FAudioDevice initialized.
+[2020.04.12-02.51.26:378][793]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.12-02.51.26:428][793]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.12-02.51.26:432][793]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap up for play (max tick rate 0) at 2020.04.11-22.51.26
+[2020.04.12-02.51.26:432][793]LogWorld: Bringing up level for play took: 0.004237
+[2020.04.12-02.51.26:435][793]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap 0.563
+[2020.04.12-02.51.26:436][793]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.51.43:231][ 40]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1618.561 Y=691.763 Z=408.104] for [FirstPersonProjectile_C]
+[2020.04.12-02.51.44:195][104]LogScript: Warning: Attempted to access ThirdPersonCharacter_167 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_167 is pending kill
+	AI_Active_Hard_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap:PersistentLevel.AI_Active_Hard_C_5
+	Function /Game/EnemyAI/AI_Active_Hard.AI_Active_Hard_C:ExecuteUbergraph_AI_Active_Hard:01BA
+[2020.04.12-02.51.44:195][104]PIE: Error: Blueprint Runtime Error: "Attempted to access ThirdPersonCharacter_167 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_167 is pending kill". Blueprint:  AI_Active_Hard Function:  Execute Ubergraph AI Active Hard Graph:  EventGraph Node:  Set PlayerHealth
+[2020.04.12-02.51.44:195][104]LogScript: Warning: Attempted to access ThirdPersonCharacter_167 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_167 is pending kill
+	AI_Active_Hard_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap:PersistentLevel.AI_Active_Hard_C_5
+	Function /Game/EnemyAI/AI_Active_Hard.AI_Active_Hard_C:ExecuteUbergraph_AI_Active_Hard:01E9
+[2020.04.12-02.51.44:195][104]PIE: Error: Blueprint Runtime Error: "Attempted to access ThirdPersonCharacter_167 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_167 is pending kill". Blueprint:  AI_Active_Hard Function:  Execute Ubergraph AI Active Hard Graph:  EventGraph Node:  Set PlayerHealth
+[2020.04.12-02.51.44:195][104]LogScript: Warning: Attempted to assign to None
+	AI_Active_Hard_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap:PersistentLevel.AI_Active_Hard_C_5
+	Function /Game/EnemyAI/AI_Active_Hard.AI_Active_Hard_C:ExecuteUbergraph_AI_Active_Hard:01FE
+[2020.04.12-02.51.44:195][104]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  AI_Active_Hard Function:  Execute Ubergraph AI Active Hard Graph:  EventGraph Node:  Set PlayerHealth
+[2020.04.12-02.51.47:298][314]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-02.51.47:302][314]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.12-02.51.47:317][314]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.12-02.51.47:317][314]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.51.47:326][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.12-02.51.47:326][314]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-02.51.47:387][314]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.12-02.51.47:387][314]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.51.47:462][314]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-02.51.47:500][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.12-02.51.47:544][314]LogUObjectHash: Compacting FUObjectHashTables data took   6.50ms
+[2020.04.12-02.51.47:556][314]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.51.47:556][314]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.51.47:556][314]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.51.47:592][314]LogLinux: Scale at X=77.000000, Y=349.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.51.47:603][314]LogLinux: Scale at X=960.500000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.51.47:830][315]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.51.47:830][315]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.12-02.51.47:860][315]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.51.47:872][315]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2020.04.12-02.51.48:199][324]LogHttp: Warning: 0x7f80593b4700: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.51.48:199][324]LogHttp: Warning: 0x7f80593b4700: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.51.48:199][324]LogHttp: Warning: 0x7f80593b4700: libcurl info message cache 1 (Closing connection 130)
+[2020.04.12-02.51.48:214][325]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.52.09:040][784]LogLinux: Scale at X=77.000000, Y=349.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.52.09:040][784]LogSlate: Window 'Message Log' being destroyed
+[2020.04.12-02.52.09:062][784]LogSlate: Window 'Message Log' being destroyed
+[2020.04.12-02.52.22:970][474]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.12-02.52.22:986][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.52.22:986][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.12-02.52.22:986][474]PIE: New page: PIE session: TutMap (Apr 11, 2020, 6:52:22 PM)
+[2020.04.12-02.52.22:987][474]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap
+[2020.04.12-02.52.23:010][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023360s)
+[2020.04.12-02.52.23:011][474]LogAIModule: Creating AISystem for world TutMap
+[2020.04.12-02.52.23:011][474]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2020.04.12-02.52.23:011][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TutMap.TutMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap (0.024712s)
+[2020.04.12-02.52.23:053][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.04.12-02.52.23:055][474]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.12-02.52.23:055][474]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.12-02.52.23:055][474]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.12-02.52.23:055][474]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.12-02.52.23:055][474]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.12-02.52.23:055][474]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2020.04.12-02.52.23:055][474]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.12-02.52.23:055][474]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.12-02.52.23:055][474]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2020.04.12-02.52.23:506][474]LogInit: FAudioDevice initialized.
+[2020.04.12-02.52.23:506][474]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.12-02.52.23:564][474]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.12-02.52.23:570][474]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap up for play (max tick rate 0) at 2020.04.11-22.52.23
+[2020.04.12-02.52.23:571][474]LogWorld: Bringing up level for play took: 0.005609
+[2020.04.12-02.52.23:575][474]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap 0.589
+[2020.04.12-02.52.23:575][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.52.31:129][ 19]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=972.127 Y=-1262.223 Z=224.474] for [FirstPersonProjectile_C]
+[2020.04.12-02.52.31:287][ 29]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1043.825 Y=-1286.716 Z=226.138] for [FirstPersonProjectile_C]
+[2020.04.12-02.52.31:446][ 40]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1128.283 Y=-1300.047 Z=226.138] for [FirstPersonProjectile_C]
+[2020.04.12-02.52.31:489][ 42]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2020.04.12-02.53.36:347][815]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-5148.249 Y=3808.434 Z=237.680] for [FirstPersonProjectile_C]
+[2020.04.12-02.53.36:538][818]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-5187.446 Y=3725.579 Z=238.944] for [FirstPersonProjectile_C]
+[2020.04.12-02.53.37:000][825]LogProjectileMovement: Warning: GetSimulationTimeStep() - Max iterations 4 hit while remaining time 0.052579 > MaxSimulationTimeStep (0.050) for '/Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap:PersistentLevel.FirstPersonProjectile_C_191.CollisionComponent'
+[2020.04.12-02.53.37:322][830]LogProjectileMovement: Warning: GetSimulationTimeStep() - Max iterations 4 hit while remaining time 0.060705 > MaxSimulationTimeStep (0.050) for '/Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap:PersistentLevel.FirstPersonProjectile_C_193.CollisionComponent'
+[2020.04.12-02.53.37:472][833]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-5248.431 Y=3297.204 Z=241.752] for [FirstPersonProjectile_C]
+[2020.04.12-02.53.37:717][837]LogProjectileMovement: Warning: GetSimulationTimeStep() - Max iterations 4 hit while remaining time 0.050638 > MaxSimulationTimeStep (0.050) for '/Game/ThirdPersonBP/Maps/UEDPIE_0_TutMap.TutMap:PersistentLevel.FirstPersonProjectile_C_195.CollisionComponent'
+[2020.04.12-02.53.37:871][840]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-5070.959 Y=3216.269 Z=238.599] for [FirstPersonProjectile_C]
+[2020.04.12-02.53.38:031][843]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-4991.987 Y=3190.942 Z=238.599] for [FirstPersonProjectile_C]
+[2020.04.12-02.53.42:024][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-02.53.42:041][ 92]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.12-02.53.42:059][ 92]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.12-02.53.42:059][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.53.42:061][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.12-02.53.42:061][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-02.53.42:177][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.12-02.53.42:178][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/TutMap.TutMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TutMap.TutMap:PersistentLevel.TutMap'
+[2020.04.12-02.53.42:349][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-02.53.42:396][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.12-02.53.42:455][ 92]LogUObjectHash: Compacting FUObjectHashTables data took  16.96ms
+[2020.04.12-02.53.42:567][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2020.04.12-02.53.43:519][111]LogLinux: Scale at X=183.000000, Y=260.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.53.43:698][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.12-02.53.43:842][112]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.53.44:382][116]LogLinux: Scale at X=445.500000, Y=562.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.53.44:608][117]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.53.45:878][120]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.12-02.53.48:484][200]LogHttp: Warning: 0x7f8059b23f80: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.53.48:484][200]LogHttp: Warning: 0x7f8059b23f80: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.53.48:485][200]LogHttp: Warning: 0x7f8059b23f80: libcurl info message cache 1 (Closing connection 131)
+[2020.04.12-02.53.48:510][201]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.55.49:122][390]LogHttp: Warning: 0x7f8059b23f80: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.55.49:122][390]LogHttp: Warning: 0x7f8059b23f80: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.55.49:122][390]LogHttp: Warning: 0x7f8059b23f80: libcurl info message cache 1 (Closing connection 132)
+[2020.04.12-02.55.49:455][391]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.57.49:800][752]LogHttp: Warning: 0x7f8059b23300: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.57.49:800][752]LogHttp: Warning: 0x7f8059b23300: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.57.49:800][752]LogHttp: Warning: 0x7f8059b23300: libcurl info message cache 1 (Closing connection 133)
+[2020.04.12-02.57.50:133][753]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-02.58.47:124][923]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.58.47:125][923]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.58.47:125][923]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.04.12-02.58.47:266][924]LogLinux: Setting swap interval to 'Immediate'
+[2020.04.12-02.59.50:283][640]LogHttp: Warning: 0x7f8059b23f80: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-02.59.50:283][640]LogHttp: Warning: 0x7f8059b23f80: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-02.59.50:283][640]LogHttp: Warning: 0x7f8059b23f80: libcurl info message cache 1 (Closing connection 134)
+[2020.04.12-02.59.50:291][641]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-03.01.50:484][561]LogHttp: Warning: 0x7f80593b0380: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-03.01.50:485][561]LogHttp: Warning: 0x7f80593b0380: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-03.01.50:485][561]LogHttp: Warning: 0x7f80593b0380: libcurl info message cache 1 (Closing connection 135)
+[2020.04.12-03.01.50:485][561]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-03.03.50:645][977]LogHttp: Warning: 0x7f7fa8d6a240: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-03.03.50:645][977]LogHttp: Warning: 0x7f7fa8d6a240: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-03.03.50:645][977]LogHttp: Warning: 0x7f7fa8d6a240: libcurl info message cache 1 (Closing connection 136)
+[2020.04.12-03.03.50:645][977]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-03.05.50:809][234]LogHttp: Warning: 0x7f7fa8d67400: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-03.05.50:809][234]LogHttp: Warning: 0x7f7fa8d67400: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-03.05.50:810][234]LogHttp: Warning: 0x7f7fa8d67400: libcurl info message cache 1 (Closing connection 137)
+[2020.04.12-03.05.50:820][235]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-03.07.51:054][773]LogHttp: Warning: 0x7f80af0ea9c0: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-03.07.51:054][773]LogHttp: Warning: 0x7f80af0ea9c0: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-03.07.51:054][773]LogHttp: Warning: 0x7f80af0ea9c0: libcurl info message cache 1 (Closing connection 138)
+[2020.04.12-03.07.51:054][773]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-03.09.51:211][271]LogHttp: Warning: 0x7f8059b23bc0: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-03.09.51:211][271]LogHttp: Warning: 0x7f8059b23bc0: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-03.09.51:211][271]LogHttp: Warning: 0x7f8059b23bc0: libcurl info message cache 1 (Closing connection 139)
+[2020.04.12-03.09.51:211][271]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.04.12-03.11.51:378][642]LogHttp: Warning: 0x7f8059b29980: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.12-03.11.51:378][642]LogHttp: Warning: 0x7f8059b29980: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.12-03.11.51:378][642]LogHttp: Warning: 0x7f8059b29980: libcurl info message cache 1 (Closing connection 140)
+[2020.04.12-03.11.51:393][643]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F011AA-08D7-DE46-4D29-7EB08518B3EB%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33&AppEnvironment=datacollector-source&UploadType=eteventstream
