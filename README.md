@@ -2,8 +2,8 @@
 
 A basic FPS horror game made in Unreal Engine
 
-![](./FPSTutMedia/FPSTutPic.pnt)
-![](./FPSTutMedia/fpstut2.pnt)
+![](./FPSTutMedia/FPSTutPic.png)
+![](./FPSTutMedia/fpstut2.png)
 
 ### Misc
 
