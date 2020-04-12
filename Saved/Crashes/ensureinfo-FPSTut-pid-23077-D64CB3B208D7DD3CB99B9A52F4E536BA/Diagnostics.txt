@@ -1,0 +1,70 @@
+Generating report for minidump
+
+Application version 4.22.3.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-88-generic (network name: UGC1JV23KC2)
+Running 4 x86_64 processors (8 logical cores)
+Exception was "Ensure condition failed: !GIsTransacting [File:/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Classes/Editor/TransBuffer.h] [Line: 72]"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:669]
+libUE4Editor-Core.so!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:178]
+libUE4Editor-Core.so!FUnixCrashContext::CaptureStackTrace() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:299]
+libUE4Editor-Core.so!ReportEnsure(char16_t const*, int) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:823]
+libUE4Editor-Core.so!FDebug::EnsureFailed(char const*, char const*, int, char16_t const*, int) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:410]
+libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, char16_t const*, ...) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:461]
+libUE4Editor-UnrealEd.so!int UTransBuffer::BeginInternal<FTransaction>(char16_t const*, FText const&)::'lambda'()::operator()() const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Classes/Editor/TransBuffer.h:72]
+libUE4Editor-UnrealEd.so!int UTransBuffer::BeginInternal<FTransaction>(char16_t const*, FText const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Classes/Editor/TransBuffer.h:72]
+libUE4Editor-UnrealEd.so!UEditorEngine::BeginTransaction(char16_t const*, FText const&, UObject*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp:1095]
+libUE4Editor-DetailCustomizations.so!FComponentTransformDetails::OnSetTransform(ETransformField::Type, EAxisList::Type, FVector, bool, bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/DetailCustomizations/Private/ComponentTransformDetails.cpp:1077]
+libUE4Editor-DetailCustomizations.so!TBaseSPMethodDelegateInstance<false, FComponentTransformDetails, (ESPMode)0, TTypeWrapper<void> (float, ETextCommit::Type), ETransformField::Type, EAxisList::Type, bool>::Execute(float, ETextCommit::Type) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:279]
+libUE4Editor-DetailCustomizations.so!TBaseSPMethodDelegateInstance<false, FComponentTransformDetails, (ESPMode)0, void (float, ETextCommit::Type), ETransformField::Type, EAxisList::Type, bool>::ExecuteIfSafe(float, ETextCommit::Type) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:355]
+libUE4Editor-Slate.so!SNumericEntryBox<float>::SendChangesFromText(FText const&, bool, ETextCommit::Type) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Public/Widgets/Input/SNumericEntryBox.h:467]
+libUE4Editor-Slate.so!SNumericEntryBox<float>::OnTextCommitted(FText const&, ETextCommit::Type) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Public/Widgets/Input/SNumericEntryBox.h:409]
+libUE4Editor-Slate.so!TBaseSPMethodDelegateInstance<false, SNumericEntryBox<float>, (ESPMode)0, TTypeWrapper<void> (FText const&, ETextCommit::Type)>::Execute(FText const&, ETextCommit::Type) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:279]
+libUE4Editor-Slate.so!TBaseSPMethodDelegateInstance<false, SNumericEntryBox<float>, (ESPMode)0, void (FText const&, ETextCommit::Type)>::ExecuteIfSafe(FText const&, ETextCommit::Type) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:355]
+libUE4Editor-Slate.so!non-virtual thunk to SEditableText::OnTextCommitted(FText const&, ETextCommit::Type) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Widgets/Input/SEditableText.cpp:0]
+libUE4Editor-Slate.so!FSlateEditableTextLayout::HandleFocusLost(FFocusEvent const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Widgets/Text/SlateEditableTextLayout.cpp:784]
+libUE4Editor-Slate.so!FSlateApplication::SetUserFocus(FSlateUser*, FWidgetPath const&, EFocusCause) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:2944]
+libUE4Editor-Slate.so!FSlateApplication::ClearKeyboardFocus(EFocusCause) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:2680]
+libUE4Editor-Kismet.so!SKismetInspector::ShowDetailsForObjects(TArray<UObject*, FDefaultAllocator> const&, SKismetInspector::FShowDetailsOptions const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/Kismet/Private/SKismetInspector.cpp:486]
+libUE4Editor-Kismet.so!FBlueprintEditor::OnSelectionUpdated(TArray<TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, FDefaultAllocator> const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/Kismet/Private/BlueprintEditor.cpp:961]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, TTypeWrapper<void> (TArray<TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, FDefaultAllocator> const&)>::Execute(TArray<TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, FDefaultAllocator> const&) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:279]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, void (TArray<TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, FDefaultAllocator> const&)>::ExecuteIfSafe(TArray<TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, FDefaultAllocator> const&) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:355]
+libUE4Editor-Kismet.so!SSCSEditor::OnTreeSelectionChanged(TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, ESelectInfo::Type) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/Kismet/Private/SSCSEditor.cpp:5912]
+libUE4Editor-Kismet.so!TMemberFunctionCaller<SSCSEditor, void (SSCSEditor::*)(TSharedPtr<FSCSEditorTreeNode, ESPMode::NotThreadSafe>, ESelectInfo::Type)>::operator()<TSharedPtr<FSCSEditorTreeNode, ESPMode::NotThreadSafe> &, ESelectInfo::Type &> [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstanceInterface.h:156]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, SSCSEditor, (ESPMode)0, TTypeWrapper<void> (TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, ESelectInfo::Type)>::Execute(TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, ESelectInfo::Type) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:279]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, SSCSEditor, (ESPMode)0, void (TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, ESelectInfo::Type)>::ExecuteIfSafe(TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, ESelectInfo::Type) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:355]
+libUE4Editor-Kismet.so!TBaseDelegate<void, TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, ESelectInfo::Type>::ExecuteIfBound(TSharedPtr<FSCSEditorTreeNode, (ESPMode)0>, ESelectInfo::Type) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:648]
+libUE4Editor-Kismet.so!SListView<TSharedPtr<FSCSEditorTreeNode, (ESPMode)0> >::Private_SignalSelectionChanged(ESelectInfo::Type) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Public/Widgets/Views/SListView.h:730]
+libUE4Editor-Kismet.so!FBlueprintEditor::HandleUndoTransaction(FTransaction const*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/Kismet/Private/BlueprintEditor.cpp:2955]
+libUE4Editor-UnrealEd.so!UEditorEngine::BroadcastPostUndoRedo(FTransactionContext const&, bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp:5124]
+libUE4Editor-UnrealEd.so!UEditorEngine::HandleTransactorRedoUndo(FTransactionContext const&, bool, bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp:1193]
+libUE4Editor-UnrealEd.so!TBaseUObjectMethodDelegateInstance<false, UEditorEngine, void (FTransactionContext const&, bool)>::ExecuteIfSafe(FTransactionContext const&, bool) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:677]
+libUE4Editor-UnrealEd.so!TBaseMulticastDelegate<void, FTransactionContext const&, bool>::Broadcast(FTransactionContext const&, bool) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:977]
+libUE4Editor-UnrealEd.so!UTransBuffer::Undo(bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/EditorTransaction.cpp:1408]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, TTypeWrapper<void> ()>::Execute() const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:279]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, void ()>::ExecuteIfSafe() const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:355]
+libUE4Editor-Slate.so!FUICommandList::ConditionalProcessCommandBindings(FKey, bool, bool, bool, bool, bool) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:217]
+libUE4Editor-Slate.so!FUICommandList::ProcessCommandBindings(FKeyEvent const&) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:160]
+libUE4Editor-UnrealEd.so!SStandaloneAssetEditorToolkitHost::OnKeyDown(FGeometry const&, FKeyEvent const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/Toolkits/SStandaloneAssetEditorToolkitHost.cpp:324]
+libUE4Editor-UnrealEd.so!non-virtual thunk to SStandaloneAssetEditorToolkitHost::OnKeyDown(FGeometry const&, FKeyEvent const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/Toolkits/SStandaloneAssetEditorToolkitHost.cpp:0]
+libUE4Editor-Slate.so!FSlateApplication::ProcessKeyDownEvent(FKeyEvent const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5138]
+libUE4Editor-Slate.so!FSlateApplication::OnKeyDown(int, unsigned int, bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5046]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:252]
+libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:415]
+UE4Editor!FEngineLoop::Tick() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3882]
+UE4Editor!GuardedMain(char16_t const*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Launch/Private/Launch.cpp:170]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+libc.so.6!__libc_start_main(+0xef)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

@@ -1,0 +1,60 @@
+Generating report for minidump
+
+Application version 4.22.3.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-88-generic (network name: UGC1JV23KC2)
+Running 4 x86_64 processors (8 logical cores)
+Exception was "Ensure condition failed: Cast<APawn>(NewUpdatedComponent->GetOwner()) [File:/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/Components/PawnMovementComponent.cpp] [Line: 18]"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:669]
+libUE4Editor-Core.so!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:178]
+libUE4Editor-Core.so!FUnixCrashContext::CaptureStackTrace() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:299]
+libUE4Editor-Core.so!ReportEnsure(char16_t const*, int) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:823]
+libUE4Editor-Core.so!FDebug::EnsureFailed(char const*, char const*, int, char16_t const*, int) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:410]
+libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, char16_t const*, ...) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:461]
+libUE4Editor-Engine.so!UPawnMovementComponent::SetUpdatedComponent(USceneComponent*)::$_18::operator()() const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/Components/PawnMovementComponent.cpp:18]
+libUE4Editor-Engine.so!UPawnMovementComponent::SetUpdatedComponent(USceneComponent*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/Components/PawnMovementComponent.cpp:18]
+libUE4Editor-Engine.so!UMovementComponent::InitializeComponent() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/Components/MovementComponent.cpp:124]
+libUE4Editor-Engine.so!AActor::InitializeComponents() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/Actor.cpp:4450]
+libUE4Editor-Engine.so!AActor::PostActorConstruction() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/Actor.cpp:3120]
+libUE4Editor-Engine.so!AActor::FinishSpawning(FTransform const&, bool, FComponentInstanceDataCache const*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/Actor.cpp:3099]
+libUE4Editor-Engine.so!AActor::PostSpawnInitialize(FTransform const&, AActor*, APawn*, bool, bool, bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/Actor.cpp:3041]
+libUE4Editor-Engine.so!UWorld::SpawnActor(UClass*, FTransform const*, FActorSpawnParameters const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/LevelActor.cpp:476]
+libUE4Editor-Engine.so!UWorld::SpawnActor(UClass*, FVector const*, FRotator const*, FActorSpawnParameters const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/LevelActor.cpp:301]
+libUE4Editor-UnrealEd.so!FClassActorThumbnailScene::SpawnPreviewActor(UClass*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/ThumbnailHelpers.cpp:1054]
+libUE4Editor-UnrealEd.so!UBlueprintThumbnailRenderer::BlueprintChanged(UBlueprint*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/ThumbnailRendering/BlueprintThumbnailRenderer.cpp:113]
+libUE4Editor-UnrealEd.so!FBlueprintEditorUtils::PostEditChangeBlueprintActors(UBlueprint*, bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/Kismet2/BlueprintEditorUtils.cpp:7925]
+libUE4Editor-Kismet.so!FBlueprintEditor::OnBlueprintChangedImpl(UBlueprint*, bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/Kismet/Private/BlueprintEditor.cpp:3168]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, TTypeWrapper<void> (UBlueprint*)>::Execute(UBlueprint*) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:279]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, void (UBlueprint*)>::ExecuteIfSafe(UBlueprint*) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:355]
+libUE4Editor-Engine.so!TBaseMulticastDelegate<void, UBlueprint*>::Broadcast(UBlueprint*) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:977]
+libUE4Editor-Kismet.so!FBlueprintCompilationManagerImpl::CompileSynchronouslyImpl(FBPCompileRequest const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/Kismet/Private/BlueprintCompilationManager.cpp:246]
+libUE4Editor-UnrealEd.so!FKismetEditorUtilities::CompileBlueprint(UBlueprint*, EBlueprintCompileOptions, FCompilerResultsLog*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/Kismet2/Kismet2.cpp:765]
+libUE4Editor-Kismet.so!FBlueprintEditor::Compile() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/Kismet/Private/BlueprintEditor.cpp:3256]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, TTypeWrapper<void> ()>::Execute() const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:279]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, void ()>::ExecuteIfSafe() const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:355]
+libUE4Editor-Slate.so!FUICommandList::ExecuteAction(TSharedRef<FUICommandInfo const, (ESPMode)0>) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:99]
+libUE4Editor-Slate.so!SToolBarButtonBlock::OnClicked() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/MultiBox/SToolBarButtonBlock.cpp:298]
+libUE4Editor-Slate.so!TBaseSPMethodDelegateInstance<false, SToolBarButtonBlock, (ESPMode)0, FReply ()>::Execute() const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:279]
+libUE4Editor-Slate.so!SButton::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Widgets/Input/SButton.cpp:293]
+libUE4Editor-Slate.so!FSlateApplication::RoutePointerUpEvent(FWidgetPath const&, FPointerEvent const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5599]
+libUE4Editor-Slate.so!FSlateApplication::ProcessMouseButtonUpEvent(FPointerEvent const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:6203]
+libUE4Editor-Slate.so!FSlateApplication::OnMouseUp(EMouseButtons::Type, FVector2D) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:6176]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:358]
+libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:415]
+UE4Editor!FEngineLoop::Tick() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3882]
+UE4Editor!GuardedMain(char16_t const*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Launch/Private/Launch.cpp:170]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+libc.so.6!__libc_start_main(+0xef)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

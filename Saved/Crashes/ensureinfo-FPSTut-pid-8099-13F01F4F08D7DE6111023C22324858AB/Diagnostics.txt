@@ -1,0 +1,50 @@
+Generating report for minidump
+
+Application version 4.22.3.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-88-generic (network name: UGC1JV23KC2)
+Running 4 x86_64 processors (8 logical cores)
+Exception was "Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/EdGraph/EdGraphPin.cpp] [Line: 2124]"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:669]
+libUE4Editor-Core.so!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:178]
+libUE4Editor-Core.so!FUnixCrashContext::CaptureStackTrace() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:299]
+libUE4Editor-Core.so!ReportEnsure(char16_t const*, int) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:823]
+libUE4Editor-Core.so!FDebug::EnsureFailed(char const*, char const*, int, char16_t const*, int) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:410]
+libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, char16_t const*, ...) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:461]
+libUE4Editor-Engine.so!UEdGraphPin::SanitizePinsPostUndoRedo()::$_52::operator()() const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/EdGraph/EdGraphPin.cpp:2124]
+libUE4Editor-Engine.so!UEdGraphPin::SanitizePinsPostUndoRedo() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Engine/Private/EdGraph/EdGraphPin.cpp:2124]
+libUE4Editor-UnrealEd.so!UEditorEngine::BroadcastPostUndoRedo(FTransactionContext const&, bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp:5115]
+libUE4Editor-UnrealEd.so!UEditorEngine::HandleTransactorRedoUndo(FTransactionContext const&, bool, bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp:1193]
+libUE4Editor-UnrealEd.so!TBaseUObjectMethodDelegateInstance<false, UEditorEngine, void (FTransactionContext const&, bool)>::ExecuteIfSafe(FTransactionContext const&, bool) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:677]
+libUE4Editor-UnrealEd.so!TBaseMulticastDelegate<void, FTransactionContext const&, bool>::Broadcast(FTransactionContext const&, bool) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:977]
+libUE4Editor-UnrealEd.so!UTransBuffer::Undo(bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/EditorTransaction.cpp:1408]
+libUE4Editor-UnrealEd.so!UEditorEngine::Exec_Transaction(char16_t const*, FOutputDevice&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp:5105]
+libUE4Editor-UnrealEd.so!UEditorEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp:5554]
+libUE4Editor-UnrealEd.so!UUnrealEdEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/UnrealEd/Private/UnrealEdSrv.cpp:691]
+libUE4Editor-Core.so!decltype(auto) UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int, 0u>, FString>::ApplyAfter<void (* const&)(FString)>(void (* const&&&)(FString)) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Templates/Tuple.h:415]
+libUE4Editor-Core.so!TBaseStaticDelegateInstance<void (), FString>::ExecuteIfSafe() const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:811]
+libUE4Editor-Slate.so!FUICommandList::ConditionalProcessCommandBindings(FKey, bool, bool, bool, bool, bool) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:217]
+libUE4Editor-Slate.so!FUICommandList::ProcessCommandBindings(FKeyEvent const&) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:160]
+libUE4Editor-MainFrame.so!FMainFrameActionCallbacks::OnUnhandledKeyDownEvent(FKeyEvent const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Editor/MainFrame/Private/Frame/MainFrameActions.cpp:223]
+libUE4Editor-MainFrame.so!TBaseStaticDelegateInstance<FReply (FKeyEvent const&)>::Execute(FKeyEvent const&) const [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:760]
+libUE4Editor-Slate.so!FSlateApplication::ProcessKeyDownEvent(FKeyEvent const&) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5156]
+libUE4Editor-Slate.so!FSlateApplication::OnKeyDown(int, unsigned int, bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5046]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:252]
+libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:415]
+UE4Editor!FEngineLoop::Tick() [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3882]
+UE4Editor!GuardedMain(char16_t const*) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Launch/Private/Launch.cpp:170]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/home/lxu9/UnrealEngine4.22_base/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+libc.so.6!__libc_start_main(+0xef)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

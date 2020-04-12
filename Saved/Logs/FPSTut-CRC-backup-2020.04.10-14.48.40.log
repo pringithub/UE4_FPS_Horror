@@ -1,0 +1,123 @@
+﻿Log file open, 04/10/20 10:48:38
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Build: ++UE4+Release-4.22-CL-0
+LogInit: Engine Version: 4.22.3-0+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-0+++UE4+Release-4.22
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Apr  6 2020 17:11:22
+LogInit: Compiled with Clang: 7.0.1 (tags/RELEASE_701/final)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -Abslog="/home/lxu9/Documents/Unreal Projects/FPSTut/Saved/Logs/FPSTut-CRC.log" -Unattended "/home/lxu9/Documents/Unreal Projects/FPSTut/Saved/Crashes/ensureinfo-FPSTut-pid-23077-D64CB3B208D7DD3CB99B9A52F4E536BA/"
+LogInit: Base Directory: /home/lxu9/UnrealEngine4.22_base/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/lxu9/.config/Epic/CrashReportClient/Saved/Config/Linux/Engine.ini]
+[2020.04.10-14.48.38:439][  0]LogInit: Unix hardware info:
+[2020.04.10-14.48.38:439][  0]LogInit:  - we are the first instance of this executable
+[2020.04.10-14.48.38:439][  0]LogInit:  - this process' id (pid) is 30094, parent process' id (ppid) is 23077
+[2020.04.10-14.48.38:439][  0]LogInit:  - we are not running under debugger
+[2020.04.10-14.48.38:439][  0]LogInit:  - machine network name is 'UGC1JV23KC2'
+[2020.04.10-14.48.38:440][  0]LogInit:  - user name is 'lxu9' (lxu9)
+[2020.04.10-14.48.38:440][  0]LogInit:  - we're logged in locally
+[2020.04.10-14.48.38:440][  0]LogInit:  - we're running with rendering
+[2020.04.10-14.48.38:440][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz' (signature: 0x506E3)
+[2020.04.10-14.48.38:440][  0]LogInit:  - Number of physical cores available for the process: 4
+[2020.04.10-14.48.38:440][  0]LogInit:  - Number of logical cores available for the process: 8
+[2020.04.10-14.48.38:440][  0]LogInit:  - Cache line size: 64
+[2020.04.10-14.48.38:440][  0]LogInit:  - Memory allocator used: binned2
+[2020.04.10-14.48.38:440][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2020.04.10-14.48.38:440][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2020.04.10-14.48.38:440][  0]LogInit: Unix-specific commandline switches:
+[2020.04.10-14.48.38:440][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2020.04.10-14.48.38:440][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2020.04.10-14.48.38:440][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2020.04.10-14.48.38:440][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2020.04.10-14.48.38:440][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2020.04.10-14.48.38:440][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2020.04.10-14.48.38:440][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2020.04.10-14.48.38:440][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2020.04.10-14.48.38:440][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2020.04.10-14.48.38:440][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2020.04.10-14.48.38:440][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2020.04.10-14.48.38:440][  0]LogInit:  - Physical RAM available (not considering process quota): 32 GB (31861 MB, 32626264 KB, 33409294336 bytes)
+[2020.04.10-14.48.38:440][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2020.04.10-14.48.38:440][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2020.04.10-14.48.38:530][  0]LogAssetRegistry: FAssetRegistry took 0.0000 seconds to start up
+[2020.04.10-14.48.38:531][  0]LogUObjectArray: 1050 objects as part of root set at end of initial load.
+[2020.04.10-14.48.38:531][  0]LogUObjectAllocator: 157600 out of 0 bytes used by permanent object pool.
+[2020.04.10-14.48.38:531][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.10-14.48.38:531][  0]LogInit: Using OS detected language (en-US).
+[2020.04.10-14.48.38:531][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.10-14.48.38:531][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2020.04.10-14.48.38:531][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2020.04.10-14.48.38:543][  0]LogInit: Using OS detected language (en-US).
+[2020.04.10-14.48.38:543][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.10-14.48.38:543][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2020.04.10-14.48.38:543][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2020.04.10-14.48.38:544][  0]LogTextLocalizationManager: Compacting localization data took   0.74ms
+[2020.04.10-14.48.38:544][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000025 seconds
+[2020.04.10-14.48.38:544][  0]CrashReportClientLog: CrashReportClientVersion=1.0
+[2020.04.10-14.48.38:544][  0]CrashReportClientLog: CrashReportReceiver disabled
+[2020.04.10-14.48.38:544][  0]CrashReportClientLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2020.04.10-14.48.38:547][  0]CrashReportClientLog: Initial state = Unknown UploadState value
+[2020.04.10-14.48.38:547][  0]CrashReportClientLog: Initial state = Unknown UploadState value
+[2020.04.10-14.48.38:547][  0]LogCrashDebugHelper: DepotName: //UE4/Release-4.22
+[2020.04.10-14.48.38:547][  0]LogCrashDebugHelper: BuiltFromCL: 0
+[2020.04.10-14.48.38:547][  0]LogCrashDebugHelper: EngineVersion: 4.22.3-0+++UE4+Release-4.22
+[2020.04.10-14.48.38:547][  0]LogCrashDebugHelper: BuildVersion: ++UE4+Release-4.22-CL-0
+[2020.04.10-14.48.38:547][  0]LogCrashDebugHelper: Warning: CrashDebugHelperConfig invalid
+[2020.04.10-14.48.38:547][  0]LogCrashDebugHelper: Warning: PDB Cache disabled
+[2020.04.10-14.48.39:591][  0]CrashReportClientLog: Got 5 pending files to upload from ''
+[2020.04.10-14.48.39:591][  0]CrashReportClientLog: State change from Ready to SendingFiles
+[2020.04.10-14.48.39:591][  0]CrashReportClientLog: CompressAndSendData have 5 pending files
+[2020.04.10-14.48.39:591][  0]CrashReportClientLog: CompressAndSendData compressing 108 bytes ('/home/lxu9/Documents/Unreal Projects/FPSTut/Saved/Crashes/ensureinfo-FPSTut-pid-23077-D64CB3B208D7DD3CB99B9A52F4E536BA/CrashReportClient.ini')
+[2020.04.10-14.48.39:591][  0]CrashReportClientLog: CompressAndSendData compressing 4 bytes ('/home/lxu9/Documents/Unreal Projects/FPSTut/Saved/Crashes/ensureinfo-FPSTut-pid-23077-D64CB3B208D7DD3CB99B9A52F4E536BA/minidump.dmp')
+[2020.04.10-14.48.39:591][  0]CrashReportClientLog: CompressAndSendData compressing 141850 bytes ('/home/lxu9/Documents/Unreal Projects/FPSTut/Saved/Crashes/ensureinfo-FPSTut-pid-23077-D64CB3B208D7DD3CB99B9A52F4E536BA/FPSTut.log')
+[2020.04.10-14.48.39:591][  0]CrashReportClientLog: CompressAndSendData compressing 30480 bytes ('/home/lxu9/Documents/Unreal Projects/FPSTut/Saved/Crashes/ensureinfo-FPSTut-pid-23077-D64CB3B208D7DD3CB99B9A52F4E536BA/CrashContext.runtime-xml')
+[2020.04.10-14.48.39:591][  0]CrashReportClientLog: CompressAndSendData compressing 12131 bytes ('/home/lxu9/Documents/Unreal Projects/FPSTut/Saved/Crashes/ensureinfo-FPSTut-pid-23077-D64CB3B208D7DD3CB99B9A52F4E536BA/Diagnostics.txt')
+[2020.04.10-14.48.39:900][  0]LogInit: Using libcurl 7.48.0-DEV
+[2020.04.10-14.48.39:900][  0]LogInit:  - built for x86_64-unknown-linux-gnu
+[2020.04.10-14.48.39:900][  0]LogInit:  - supports SSL with OpenSSL/1.0.2h
+[2020.04.10-14.48.39:900][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+[2020.04.10-14.48.39:900][  0]LogInit:  - other features:
+[2020.04.10-14.48.39:900][  0]LogInit:      CURL_VERSION_SSL
+[2020.04.10-14.48.39:900][  0]LogInit:      CURL_VERSION_LIBZ
+[2020.04.10-14.48.39:900][  0]LogInit:      CURL_VERSION_IPV6
+[2020.04.10-14.48.39:900][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2020.04.10-14.48.39:900][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2020.04.10-14.48.39:901][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2020.04.10-14.48.39:901][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2020.04.10-14.48.39:901][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2020.04.10-14.48.39:901][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2020.04.10-14.48.39:901][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2020.04.10-14.48.39:901][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2020.04.10-14.48.39:901][  0]LogInit:  - LocalHostAddr = Default
+[2020.04.10-14.48.39:901][  0]LogInit:  - BufferSize = 65536
+[2020.04.10-14.48.39:901][  0]CrashReportClientLog: Sending HTTP request: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&AppEnvironment=Release&UploadType=crashreports&UserID=9c0dfeb668554fac9ce944ae0b197f33-000b0175%7C%7C9c0dfeb668554fac9ce944ae0b197f33
+[2020.04.10-14.48.40:068][  0]LogHttp: Warning: 0x7f02b043b3c0: request failed, libcurl error: 5 (Couldn't resolve proxy name)
+[2020.04.10-14.48.40:068][  0]LogHttp: Warning: 0x7f02b043b3c0: libcurl info message cache 0 (Could not resolve proxy: proxyvipchi.nls.ford.com)
+[2020.04.10-14.48.40:068][  0]LogHttp: Warning: 0x7f02b043b3c0: libcurl info message cache 1 (Closing connection 0)
+[2020.04.10-14.48.40:068][  0]CrashReportClientLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=0
+[2020.04.10-14.48.40:068][  0]CrashReportClientLog: Warning: File upload failed to data router
+[2020.04.10-14.48.40:068][  0]CrashReportClientLog: State change from SendingFiles to Cancelled
+[2020.04.10-14.48.40:602][  0]LogCore: FUnixPlatformMisc::RequestExit(0)
+[2020.04.10-14.48.40:603][  0]LogGenericPlatformMisc: FPlatformMisc::RequestExit(0)
+[2020.04.10-14.48.40:636][  0]CrashReportClientLog: Final state (Receiver) = Cancelled
+[2020.04.10-14.48.40:636][  0]CrashReportClientLog: Final state (Receiver) = Unknown UploadState value
+[2020.04.10-14.48.40:636][  0]LogExit: Preparing to exit.
+[2020.04.10-14.48.40:637][  0]LogExit: Object subsystem successfully closed.
+[2020.04.10-14.48.40:710][  0]LogModuleManager: Shutting down and abandoning module HTTP (14)
+[2020.04.10-14.48.40:729][  0]LogModuleManager: Shutting down and abandoning module SSL (13)
+[2020.04.10-14.48.40:730][  0]LogModuleManager: Shutting down and abandoning module CrashDebugHelper (10)
+[2020.04.10-14.48.40:730][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (8)
+[2020.04.10-14.48.40:730][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.04.10-14.48.40:730][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.04.10-14.48.40:730][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.04.10-14.48.40:730][  0]LogExit: Exiting.
+[2020.04.10-14.48.40:797][  0]Log file closed, 04/10/20 10:48:40
